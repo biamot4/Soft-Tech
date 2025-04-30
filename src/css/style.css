@@ -1,0 +1,700 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Istok+Web&family=Orbitron&family=Roboto:wdth,wght@75..100,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    width: 100%;
+    border-bottom: 2px solid #F44C24;
+    display: flex;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.5rem;
+    width: 650.0rem;
+
+
+    font-family: 'orbitron', Arial, Helvetica, sans-serif;
+    font-size: 3.0rem;
+    color: white;
+    opacity: 36%;
+}
+
+.cabecalho h3 {
+    font-weight: normal;
+}
+
+main {
+    width: 100%;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    gap: 6.5rem;
+    margin-top: 9.0rem;
+}
+
+.textos {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.textos h2 {
+    font-weight: bold;
+    width: 60.0rem;
+    font-size: 7.0rem;
+}
+
+span {
+    color: #F44C24;
+}
+
+.textos p {
+    margin-top: 2.5rem;
+    font-size: 2.5rem;
+    width: 69.5rem;
+    text-align: justify;
+}
+
+.botoes {
+    margin-top: 3.0rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.transparente {
+    width: 25.3rem;
+    height: 5.9rem;
+    background: none;
+    border: 2px solid #F44C24;
+    border-radius: 1.3rem;
+
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2.0rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.laranja {
+    width: 27.7rem;
+    height: 6.2rem;
+    background-color: #F44C24;
+    border: none;
+    border-radius: 1.3rem;
+
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2.0rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.informacoes {
+    display: flex;
+    width: 140.7rem;
+    height: 16.3rem;
+    margin-top: 9.1rem;
+    margin-bottom: 15.0rem;
+    margin-left: 1.0rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.3rem;
+    border: 4px solid #F44C24;
+    border-radius: 0.5rem;
+    align-items: center;
+    background-color: #021026;
+}
+
+.preco {
+    display: flex;
+    margin-left: 2.4rem;
+    width: 21.2rem;
+    height: 11.5rem;
+    align-items: center;
+    border: 4px solid #F44C24;
+    border-radius: 1.0rem;
+    font-family: 'orbitron', Arial, Helvetica, sans-serif;
+}
+
+.mintext {
+    display: flex;
+    flex-direction: column;
+}
+
+.preco h5 {
+
+    font-size: 1.7rem;
+    color: #FFFFFF;
+    font-weight: normal;
+    opacity: 60%;
+    text-decoration: line-through;
+    text-align: center;
+}
+
+.preco h4 {
+    color: white;
+    font-weight: normal;
+    font-size: 2.2rem;
+}
+
+.horario {
+    display: flex;
+    font-family: 'orbitron', Arial, Helvetica, sans-serif;
+    border: 4px solid #F44C24;
+    border-radius: 1.0rem;
+    width: 22.9rem;
+    height: 11.5rem;
+    align-items: center;
+    margin-left: 4.1rem;
+}
+
+.horario h4 {
+    font-weight: normal;
+    font-size: 2.0rem;
+    width: 13.4rem;
+}
+
+.livros {
+    display: flex;
+    font-family: 'orbitron', Arial, Helvetica, sans-serif;
+    border: 4px solid #F44C24;
+    border-radius: 1.0rem;
+    width: 31.2rem;
+    height: 11.5rem;
+    align-items: center;
+    margin-left: 3.4rem;
+}
+
+.livros h4 {
+    font-weight: normal;
+    font-size: 2.0rem;
+    width: 20.9rem;
+}
+
+.autodidata {
+    display: flex;
+    font-family: 'orbitron', Arial, Helvetica, sans-serif;
+    width: 30.0rem;
+    height: 11.5rem;
+    border: 4px solid #F44C24;
+    border-radius: 1.0rem;
+    align-items: center;
+    margin-left: 4.1rem;
+}
+
+.autodidata h4 {
+    font-weight: normal;
+    width: 23.3rem;
+    font-size: 2.0rem;
+}
+
+.primeira h1 {
+    font-family: 'inter', Arial, Helvetica, sans-serif;
+    font-size: 7.0rem;
+    font-weight: bold;
+    margin-left: 8.5rem;
+    margin-top: 5.4rem;
+    margin-bottom: 6.9rem;
+}
+
+.cards {
+    display: flex;
+    margin-left: 6.3rem;
+    margin-right: 9.1rem;
+    margin-bottom: 20.0rem;
+    justify-content: space-between;
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+.mod1 {
+    width: 25.7rem;
+    height: 48.0rem;
+    background-color: white;
+    color: black;
+    border-radius: 1.2rem;
+    padding-top: 2.5rem;
+}
+
+.mod1 img {
+    width: 25.7rem;
+    height: 16.4rem;
+}
+
+.mod1 h2 {
+    text-align: center;
+    margin-bottom: 2.7rem;
+    font-size: 2.0rem;
+}
+
+.mod1 h3 {
+    font-size: 1.6rem;
+    font-weight: normal;
+    margin-left: 1.5rem;
+    margin-top: 3.2rem;
+}
+
+
+.mod1 h4 {
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-left: 1.5rem;
+    margin-top: 0.6rem;
+    color: #000000;
+    opacity: 80%;
+    margin-bottom: 3.2rem;
+}
+
+.mod1 p {
+    font-size: 1.4rem;
+    width: 22.5rem;
+    font-weight: normal;
+    margin-left: 1.5rem;
+    margin-bottom: 9.1rem;
+}
+
+.mod2 {
+    width: 25.7rem;
+    height: 48.0rem;
+    background-color: white;
+    color: black;
+    border-radius: 1.2rem;
+    padding-top: 1.6rem;
+}
+
+.mod2 img {
+    width: 25.7rem;
+    height: 16.4rem;
+}
+
+.mod2 h2 {
+    text-align: center;
+    font-size: 2.0rem;
+    margin-bottom: 1.2rem;
+}
+
+.mod2 h3 {
+    font-size: 1.6rem;
+    font-weight: normal;
+    margin-top: 3.3rem;
+    margin-left: 1.5rem;
+}
+
+.mod2 h4 {
+    font-size: 1.4rem;
+    margin-left: 1.5rem;
+    margin-top: 0.6rem;
+    font-weight: normal;
+    color: #000000;
+    opacity: 80%;
+}
+
+.mod2 p {
+    font-size: 1.4rem;
+    font-weight: normal;
+    width: 22.5rem;
+    margin-top: 3.2rem;
+    margin-left: 1.5rem;
+
+}
+
+.mod3 {
+    width: 25.7rem;
+    height: 48.0rem;
+    background-color: white;
+    color: black;
+    border-radius: 1.2rem;
+    padding-top: 2.5rem;
+}
+
+.mod3 img {
+    width: 25.7rem;
+    height: 16.4rem;
+}
+
+.mod3 h2 {
+    font-size: 2.0rem;
+    text-align: center;
+    margin-bottom: 2.7rem;
+}
+
+.mod3 h3 {
+    font-size: 1.6rem;
+    font-weight: normal;
+    margin-top: 3.3rem;
+    margin-left: 1.5rem;
+}
+
+.mod3 h4 {
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #000000;
+    opacity: 80%;
+    margin-top: 0.6rem;
+    margin-left: 1.5rem;
+}
+
+.mod3 p {
+    font-size: 1.4rem;
+    width: 22.5rem;
+    margin-top: 3.2rem;
+    margin-bottom: 7.1rem;
+    margin-left: 1.5rem;
+}
+
+.mod4 {
+    width: 25.7rem;
+    height: 48.0rem;
+    background-color: white;
+    color: black;
+    border-radius: 1.2rem;
+    padding-top: 2.5rem;
+}
+
+.mod4 img {
+    width: 25.7rem;
+    height: 16.4rem;
+}
+
+.mod4 h2 {
+    font-size: 2.0rem;
+    text-align: center;
+    margin-bottom: 2.7rem;
+}
+
+.mod4 h3 {
+    font-size: 1.6rem;
+    font-weight: normal;
+    margin-top: 3.3rem;
+    margin-left: 1.5rem;
+}
+
+.mod4 h4 {
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #000000;
+    opacity: 80%;
+    margin-top: 0.6rem;
+    margin-left: 1.5rem;
+}
+
+.mod4 p {
+    font-size: 1.4rem;
+    width: 22.5rem;
+    margin-top: 3.2rem;
+    margin-bottom: 7.1rem;
+    margin-left: 1.5rem;
+}
+
+
+.segunda h1 {
+    font-family: 'inter', Arial, Helvetica, sans-serif;
+    font-size: 7.0rem;
+    margin-left: 7.9rem;
+    margin-right: 7.1rem;
+    margin-top: 5.45rem;
+}
+
+.tudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa {
+    display: flex;
+    background-color: #021026;
+    width: 131.1rem;
+    height: 68.7rem;
+    border: 5px solid #F44C24;
+    border-radius: 2.0rem;
+    margin-left: 7.7rem;
+    margin-right: 5.8rem;
+    margin-top: 19.95rem;
+    margin-bottom: 23.2rem;
+    box-shadow: -35px -35px 0px #F44C24;
+    justify-content: center;
+    align-items: center;
+    gap: 15.5rem;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.0rem;
+    margin-left: 7.0rem;
+    margin-top: 13.9rem;
+    margin-bottom: 24.7rem;
+}
+
+.perfil h2 {
+    display: flex;
+    width: 26.6rem;
+    height: 7.4rem;
+    background-color: #24E5F4;
+    color: black;
+    border-radius: 2.0rem;
+    font-family: 'orbitron', Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.docente img {
+    width: 30.0rem;
+    height: 29.9rem;
+    border: 5px solid #F4B224;
+    border-radius: 19.4rem;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    margin-top: 13.9rem;
+    margin-bottom: 12.6rem;
+    margin-right: 6.7rem;
+}
+
+.descricao img {
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.6rem;
+    font-family: 'orbitron', Arial, Helvetica, sans-serif;
+    gap: 2.3rem;
+}
+
+.titulo h4 {
+    font-size: 2.5rem;
+}
+
+.descricao p {
+    font-family: 'inter', Arial, Helvetica, sans-serif;
+    font-size: 2.6rem;
+    text-align: justify;
+    width: 60.9rem;
+    height: 42.2rem;
+    font-weight: normal;
+    margin-left: 8.0rem;
+}
+
+.terceira {
+    font-family: 'inter', Arial, Helvetica, sans-serif;
+
+}
+
+.tituloesub h1 {
+    font-size: 7.0rem;
+    margin-top: 5.4rem;
+    margin-left: 7.4rem;
+}
+
+.tituloesub p {
+    font-size: 2.4rem;
+    width: 89.0rem;
+    margin-left: 24.5rem;
+    margin-top: 4.8rem;
+    margin-bottom: 8.6rem;
+}
+
+.blocos {
+    display: flex;
+    gap: 4.2rem;
+    margin-bottom: 15.5rem;
+    justify-content: center;
+}
+
+.blocos img {
+    width: 6.1rem;
+    height: 5.5rem;
+    margin-top: 2.8rem;
+    margin-left: 2.0rem;
+    /* border-bottom: 1px solid #F44C24; */
+}
+
+.bloco1 {
+    width: 34.7rem;
+    height: 61.0rem;
+    background-color: #021026;
+    border-radius: 1.0rem;
+    box-shadow: 0.5px 0px 10px #f44e248e;
+}
+
+.bloco1 h2 {
+    display: flex;
+    margin-top: 1.0rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 2.4rem;
+    height: 8.5rem;
+    align-items: center;
+    border-top: 1px solid #F44C24;
+}
+
+.bloco1 p {
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 1.8rem;
+    height: 8.5rem;
+    align-items: center;
+    border-top: 1px solid #F44C24;
+}
+
+.bloco2 {
+    width: 34.7rem;
+    height: 44.8rem;
+    background-color: #021026;
+    border-radius: 1.0rem;
+    box-shadow: 0.5px 0px 10px #f44e248e;
+}
+
+.bloco2 h2 {
+    display: flex;
+    margin-top: 1.0rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 2.4rem;
+    height: 8.5rem;
+    align-items: center;
+    border-top: 1px solid #F44C24;
+}
+
+.bloco2 p {
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 1.8rem;
+    height: 8.5rem;
+    align-items: center;
+    border-top: 1px solid #F44C24;
+}
+
+.bloco3 {
+    width: 34.7rem;
+    height: 52.4rem;
+    background-color: #021026;
+    border-radius: 1.0rem;
+    box-shadow: 0.5px 0px 10px #f44e248e;
+}
+
+.bloco3 h2 {
+    display: flex;
+    margin-top: 1.0rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 2.4rem;
+    height: 8.5rem;
+    align-items: center;
+    border-top: 1px solid #F44C24;
+}
+
+.bloco3 p {
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size: 1.8rem;
+    height: 8.5rem;
+    align-items: center;
+    border-top: 1px solid #F44C24;
+}
+
+.quarta h1 {
+    font-family: 'inter', Arial, Helvetica, sans-serif;
+    font-size: 7.0rem;
+    margin-top: 5.4rem;
+    margin-left: 9.1rem;
+    margin-bottom: 7.0rem;
+}
+
+.textofeedback {
+    display: flex;
+    flex-direction: column;
+}
+
+.textofeedback h2 {
+    font-family: 'inter', Arial, Helvetica, sans-serif;
+    font-size: 7.0rem;
+    width: 60.8rem;
+    margin-left: 8.8rem;
+    margin-bottom: 5.3rem;
+}
+
+.centro {
+    display: flex;
+    gap: 14.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.enviar {
+    display: flex;
+}
+
+.enviar img {
+    width: 4.3rem;
+    height: 6.5rem;
+}
+
+form input {
+    width: 66.8rem;
+    height: 33.8rem;
+    border-radius: 2.5rem;
+    background-color: #021026;
+    font-size: 3.0rem;
+    border: 2px solid #F44C24;
+}
+
+
+.feedbackbtn {
+    width: 25.2rem;
+    height: 5.0rem;
+    border-radius: 1.3rem;
+    border: none;
+    margin-left: 10.6rem;
+    margin-bottom: 10.4rem;
+    background-color: #F44C24;
+    font-family: 'inter', Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-align: center;
+
+}
+
+footer {
+    display: flex;
+    font-family: 'inter', Arial, Helvetica, sans-serif;
+    background-color: #021026;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    height: 3.9rem;
+}
